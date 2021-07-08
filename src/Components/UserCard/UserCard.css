@@ -1,0 +1,46 @@
+.card { 
+    transition: 0.3s;
+    align-items: center;
+    width: 900px;
+    height: 100%;
+    
+  }
+
+  .container {
+    border: 3px solid #311b92;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 398px;
+    background :linear-gradient(#77ef32 ,#2bdad7);
+
+  }
+  .col-1{
+      display: flex;
+      flex-direction: column;
+  }
+  .col-1 h5{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -.1%;
+  }
+  .label{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+  }
+  .label label{
+    /* margin-top: ; */
+     margin-right: 3px;
+     font-size: 18px;
+     font-weight: 600;
+     color: #311b92;
+     font-family: cursive;
+  }
+ #website{
+   color :#6d475b
+
+   ;
+   text-decoration: underline;
+ }
